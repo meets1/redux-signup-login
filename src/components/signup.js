@@ -12,9 +12,7 @@ const Signup = (props) => {
 
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
-    // const [data, setData] = useState([])
-    // const [auth, setAuth] = useState(false);
-
+ 
     const checkData = (e) => {
         console.log("auth", localStorage.getItem("isAuthenticated"));
         e.preventDefault();
